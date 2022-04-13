@@ -1,0 +1,4 @@
+---
+# tasks file for ansible-role-mariadb
+- name: install packages
+  include: pkg.yml
