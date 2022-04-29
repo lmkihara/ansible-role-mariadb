@@ -1,4 +1,4 @@
 ---
 # tasks file for ansible-role-mariadb
-- name: install packages
+- name: install packages and execute mariadb service
   include: pkg.yml
